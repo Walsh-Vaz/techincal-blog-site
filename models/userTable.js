@@ -55,3 +55,5 @@ UserTable.init(
         modelName: "userTable",
     }
 );
+
+module.exports = UserTable;
