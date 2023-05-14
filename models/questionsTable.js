@@ -28,7 +28,7 @@ questionTable.init(
         userId: {
             type: DataTypes.INTEGER,
             references: {
-                model: UserTable,
+                model: "userTable",
                 key: "id",
             },
         },
@@ -36,7 +36,7 @@ questionTable.init(
         blogId: {
             type: DataTypes.INTEGER,
             references: {
-                model: blogTable,
+                model: "blogTable",
                 key: "id",
             },
         },
