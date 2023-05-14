@@ -44,7 +44,7 @@ blogTable.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: "userTable",
+        modelName: "blogTable",
     }
 );
 
