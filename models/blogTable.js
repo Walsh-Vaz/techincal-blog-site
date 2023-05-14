@@ -28,7 +28,7 @@ blogTable.init(
             type: DataTypes.INTEGER,
             references: {
                 model: UserTable,
-                key: id,
+                key: "id",
             },
         },
 
